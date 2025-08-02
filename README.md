@@ -1,4 +1,4 @@
-# 🫧skin-Wise
+# 🫧skin-wise
 
 This is a web application that uses OCR (Optical Character Recognition) to extract ingredients from skincare product labels and analyze them for safety, effectiveness, and skin type compatibility and has a chatbot that helps user to understand more ingredient info.
 
@@ -39,5 +39,6 @@ skincare-ocr-analyzer/
 │ ├── uploads/ # Uploaded label images
 │ └── style.css # Styling
 └── README.md 
+
 
 
