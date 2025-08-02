@@ -6,15 +6,16 @@ This is a web application that uses OCR (Optical Character Recognition) to extra
 
 ##  Features
 
-- 📸 Upload images of skincare product labels
-- 🤖 Automatic OCR and text cleaning
-- 🔍 Ingredient extraction using keyword and fuzzy matching
-- 🧪 Analysis using a dataset of 100 skincare products
-- 📊 Displays safety, effectiveness, skin type suitability, and more
+-  Upload images of skincare product labels
+-  Automatic OCR and text cleaning
+-  Ingredient extraction using keyword and fuzzy matching
+-  Analysis using a dataset of 100 skincare products
+-  Displays safety, effectiveness score
+-  chatbot gives info of a ingredient's description, what does it do,who it is good for and who should avoid.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Backend:** Python (Flask)
 - **Frontend:** HTML, JavaScript
@@ -24,7 +25,7 @@ This is a web application that uses OCR (Optical Character Recognition) to extra
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 skincare-ocr-analyzer/
 │
@@ -37,6 +38,6 @@ skincare-ocr-analyzer/
 ├── static/
 │ ├── uploads/ # Uploaded label images
 │ └── style.css # Styling
+└── README.md 
 
-└── README.md # You're here!
 
