@@ -1,0 +1,555 @@
+[
+  {
+    "Product Name": "CeraVe Hydrating Facial Cleanser",
+    "Brand": "CeraVe",
+    "Key Ingredient": "Ceramides",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "Neutrogena Hydro Boost Water Gel",
+    "Brand": "Neutrogena",
+    "Key Ingredient": "Hyaluronic Acid",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "Brand": "The Ordinary",
+    "Key Ingredient": "Niacinamide",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 100",
+    "Brand": "La Roche-Posay",
+    "Key Ingredient": "Avobenzone",
+    "Risk Score": "7",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+    "Brand": "Paula's Choice",
+    "Key Ingredient": "Salicylic Acid",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Drunk Elephant C-Firma Fresh Day Serum",
+    "Brand": "Drunk Elephant",
+    "Key Ingredient": "Vitamin C (L-Ascorbic Acid)",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "EltaMD UV Clear Broad-Spectrum SPF 46",
+    "Brand": "EltaMD",
+    "Key Ingredient": "Zinc Oxide",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "SkinCeuticals C E Ferulic",
+    "Brand": "SkinCeuticals",
+    "Key Ingredient": "Vitamin C (L-Ascorbic Acid)",
+    "Risk Score": "",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+    "Brand": "La Roche-Posay",
+    "Key Ingredient": "Niacinamide",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "First Aid Beauty Ultra Repair Cream",
+    "Brand": "First Aid Beauty",
+    "Key Ingredient": "Colloidal Oatmeal",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "The Inkey List Retinol Serum",
+    "Brand": "The Inkey List",
+    "Key Ingredient": "Retinol",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Aveeno Positively Radiant Daily Moisturizer SPF 30",
+    "Brand": "Aveeno",
+    "Key Ingredient": "Soy Complex",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "8.0"
+  },
+  {
+    "Product Name": "Olay Regenerist Micro-Sculpting Cream",
+    "Brand": "Olay",
+    "Key Ingredient": "Amino-Peptides",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Bioderma Sensibio H2O Micellar Water",
+    "Brand": "Bioderma",
+    "Key Ingredient": "Micelles",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "8.0"
+  },
+  {
+    "Product Name": "Vanicream Gentle Facial Cleanser",
+    "Brand": "Vanicream",
+    "Key Ingredient": "Glycerin",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Murad Rapid Age Spot and Pigment Lightening Serum",
+    "Brand": "Murad",
+    "Key Ingredient": "Hydroquinone",
+    "Risk Score": "6",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Kiehl's Midnight Recovery Concentrate",
+    "Brand": "Kiehl's",
+    "Key Ingredient": "Lavender Oil",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "Clinique Moisture Surge 72-Hour Auto-Replenishing Hydrator",
+    "Brand": "Clinique",
+    "Key Ingredient": "Aloe Vera",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Tatcha The Water Cream",
+    "Brand": "Tatcha",
+    "Key Ingredient": "Japanese Wild Rose",
+    "Risk Score": "6",
+    "Effectiveness Score (Based on Key Ingredient)": "7.0"
+  },
+  {
+    "Product Name": "Eucerin Advanced Repair Cream",
+    "Brand": "Eucerin",
+    "Key Ingredient": "Urea",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Biossance Squalane + Vitamin C Rose Oil",
+    "Brand": "Biossance",
+    "Key Ingredient": "Squalane",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "The Ordinary AHA 30% + BHA 2% Peeling Solution",
+    "Brand": "The Ordinary",
+    "Key Ingredient": "Glycolic Acid",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Sunday Riley Good Genes All-In-One Lactic Acid Treatment",
+    "Brand": "Sunday Riley",
+    "Key Ingredient": "Lactic Acid",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Dr. Jart+ Cicapair Tiger Grass Color Correcting Treatment SPF 30",
+    "Brand": "Dr. Jart+",
+    "Key Ingredient": "Centella Asiatica",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Glow Recipe Watermelon Glow Sleeping Mask",
+    "Brand": "Glow Recipe",
+    "Key Ingredient": "Watermelon Extract",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "Laneige Water Sleeping Mask",
+    "Brand": "Laneige",
+    "Key Ingredient": "Hydro Ionized Mineral Water",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "7.0"
+  },
+  {
+    "Product Name": "Fresh Rose Deep Hydration Face Cream",
+    "Brand": "Fresh",
+    "Key Ingredient": "Rosewater",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "7.0"
+  },
+  {
+    "Product Name": "Kiehl's Ultra Facial Cream",
+    "Brand": "Kiehl's",
+    "Key Ingredient": "Glacial Glycoprotein",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "7.0"
+  },
+  {
+    "Product Name": "Origins GinZing Energy-Boosting Gel Moisturizer",
+    "Brand": "Origins",
+    "Key Ingredient": "Ginseng",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "8.0"
+  },
+  {
+    "Product Name": "Philosophy Purity Made Simple One-Step Facial Cleanser",
+    "Brand": "Philosophy",
+    "Key Ingredient": "Meadowfoam Seed Oil",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "8.0"
+  },
+  {
+    "Product Name": "Shiseido Clarifying Cleansing Foam",
+    "Brand": "Shiseido",
+    "Key Ingredient": "White Clay",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "Maelove Night Renewer",
+    "Brand": "Maelove",
+    "Key Ingredient": "Glycolic Acid",
+    "Risk Score": "",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Youth to the People Retinal + Niacinamide Serum",
+    "Brand": "Youth to the People",
+    "Key Ingredient": "Retinal",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Drunk Elephant A-Shaba Eye Serum",
+    "Brand": "Drunk Elephant",
+    "Key Ingredient": "Retinol",
+    "Risk Score": "6",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Biossance Omega Repair Cream",
+    "Brand": "Biossance",
+    "Key Ingredient": "Omega Fatty Acids",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Saint Jane Luxury Sun Ritual SPF 30",
+    "Brand": "Saint Jane",
+    "Key Ingredient": "Zinc Oxide",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "EltaMD Tinted UV Clear SPF 46",
+    "Brand": "EltaMD",
+    "Key Ingredient": "Zinc Oxide",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "La Roche-Posay Effaclar Medicated Gel Cleanser",
+    "Brand": "La Roche-Posay",
+    "Key Ingredient": "Salicylic Acid",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Anua Heartleaf 77% Soothing Toner",
+    "Brand": "Anua",
+    "Key Ingredient": "Heartleaf Extract",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "8.0"
+  },
+  {
+    "Product Name": "Paula's Choice CALM Restoring Moisturizer",
+    "Brand": "Paula's Choice",
+    "Key Ingredient": "Licorice Root Extract",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": ""
+  },
+  {
+    "Product Name": "COSRX AHA/BHA Clarifying Treatment Toner",
+    "Brand": "COSRX",
+    "Key Ingredient": "Salix Alba (Willow) Bark Water",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": ""
+  },
+  {
+    "Product Name": "Hada Labo Gokujyun Premium Lotion",
+    "Brand": "Hada Labo",
+    "Key Ingredient": "Hyaluronic Acid",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "Skinceuticals C E Ferulic",
+    "Brand": "Skinceuticals",
+    "Key Ingredient": "Vitamin C",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "The Inkey List Niacinamide Serum",
+    "Brand": "The Inkey List",
+    "Key Ingredient": "Niacinamide",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Neutrogena Hydro Boost Gel-Cream",
+    "Brand": "Neutrogena",
+    "Key Ingredient": "Hyaluronic Acid",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "CeraVe PM Facial Moisturizing Lotion",
+    "Brand": "CeraVe",
+    "Key Ingredient": "Niacinamide",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Dear, Klairs Freshly Juiced Vitamin Drop",
+    "Brand": "Dear, Klairs",
+    "Key Ingredient": "Ascorbic Acid",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "La Roche-Posay Hyalu B5 Serum",
+    "Brand": "La Roche-Posay",
+    "Key Ingredient": "Hyaluronic Acid",
+    "Risk Score": "",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "Dr. Dennis Gross Alpha Beta Universal Daily Peel",
+    "Brand": "Dr. Dennis Gross",
+    "Key Ingredient": "Alpha Hydroxy Acids (AHAs)",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Av\u00e8ne Cicalfate+ Restorative Protective Cream",
+    "Brand": "Av\u00e8ne",
+    "Key Ingredient": "Sucralfate",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "7.0"
+  },
+  {
+    "Product Name": "Tower 28 SOS Daily Rescue Facial Spray",
+    "Brand": "Tower 28",
+    "Key Ingredient": "Hypochlorous Acid",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "Farmacy Green Clean Makeup Meltaway Cleansing Balm",
+    "Brand": "Farmacy",
+    "Key Ingredient": "Sunflower Oil",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "6.0"
+  },
+  {
+    "Product Name": "Vanicream Gentle Facial Cleanser",
+    "Brand": "Vanicream",
+    "Key Ingredient": "Glycerin",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Youth To The People Superfood Antioxidant Cleanser",
+    "Brand": "Youth To The People",
+    "Key Ingredient": "Kale",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Benton Aloe BHA Skin Toner",
+    "Brand": "Benton",
+    "Key Ingredient": "Aloe Vera",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+",
+    "Brand": "Beauty of Joseon",
+    "Key Ingredient": "Rice Extract",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Etude House SoonJung 2x Barrier Intensive Cream",
+    "Brand": "Etude House",
+    "Key Ingredient": "Panthenol",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Glow Recipe Avocado Melt Retinol Sleeping Mask",
+    "Brand": "Glow Recipe",
+    "Key Ingredient": "Retinol",
+    "Risk Score": "6",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Pixi Glow Tonic",
+    "Brand": "Pixi",
+    "Key Ingredient": "Glycolic Acid",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Acure Brightening Facial Scrub",
+    "Brand": "Acure",
+    "Key Ingredient": "Sea Kelp",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "Kate Somerville EradiKate Acne Treatment",
+    "Brand": "Kate Somerville",
+    "Key Ingredient": "Sulfur",
+    "Risk Score": "6",
+    "Effectiveness Score (Based on Key Ingredient)": ""
+  },
+  {
+    "Product Name": "Origins GinZing Refreshing Eye Cream",
+    "Brand": "Origins",
+    "Key Ingredient": "Caffeine",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "Tatcha The Dewy Skin Cream",
+    "Brand": "Tatcha",
+    "Key Ingredient": "Japanese Purple Rice",
+    "Risk Score": "6",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Paula's Choice 10% Azelaic Acid Booster",
+    "Brand": "Paula's Choice",
+    "Key Ingredient": "Azelaic Acid",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "8.0"
+  },
+  {
+    "Product Name": "Naturium Niacinamide Gel Cream 5%",
+    "Brand": "Naturium",
+    "Key Ingredient": "Niacinamide",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "The Ordinary Lactic Acid 10% + HA",
+    "Brand": "The Ordinary",
+    "Key Ingredient": "Lactic Acid",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "IUNIK Centella Calming Gel Cream",
+    "Brand": "IUNIK",
+    "Key Ingredient": "Centella Asiatica",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Goodal Green Tangerine Vita C Dark Spot Serum",
+    "Brand": "Goodal",
+    "Key Ingredient": "Green Tangerine Extract",
+    "Risk Score": "",
+    "Effectiveness Score (Based on Key Ingredient)": ""
+  },
+  {
+    "Product Name": "Naturie Hatomugi Skin Conditioner",
+    "Brand": "Naturie",
+    "Key Ingredient": "Job's Tears (Hatomugi)",
+    "Risk Score": "",
+    "Effectiveness Score (Based on Key Ingredient)": ""
+  },
+  {
+    "Product Name": "Bior\u00e9 UV Aqua Rich Watery Essence SPF50+",
+    "Brand": "Bior\u00e9",
+    "Key Ingredient": "Hyaluronic Acid",
+    "Risk Score": "",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "Neogen Real Ferment Micro Essence",
+    "Brand": "Neogen",
+    "Key Ingredient": "Fermented Ingredients",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "SOME BY MI AHA BHA PHA 30 Days Miracle Toner",
+    "Brand": "SOME BY MI",
+    "Key Ingredient": "Tea Tree Leaf Extract",
+    "Risk Score": "4",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Etude House Moistfull Collagen Cream",
+    "Brand": "Etude House",
+    "Key Ingredient": "Hydrolyzed Collagen",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Dr. Jart+ Cicapair Tiger Grass Color Correcting Treatment",
+    "Brand": "Dr. Jart+",
+    "Key Ingredient": "Centella Asiatica",
+    "Risk Score": "5",
+    "Effectiveness Score (Based on Key Ingredient)": "8.5"
+  },
+  {
+    "Product Name": "Missha Time Revolution First Treatment Essence",
+    "Brand": "Missha",
+    "Key Ingredient": "Fermented Yeast Extract",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Pyunkang Yul Essence Toner",
+    "Brand": "Pyunkang Yul",
+    "Key Ingredient": "Astragalus Root Extract",
+    "Risk Score": "1",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  },
+  {
+    "Product Name": "Heimish All Clean Balm",
+    "Brand": "Heimish",
+    "Key Ingredient": "Shea Butter",
+    "Risk Score": "2",
+    "Effectiveness Score (Based on Key Ingredient)": "9.5"
+  },
+  {
+    "Product Name": "Banila Co Clean It Zero Cleansing Balm",
+    "Brand": "Banila Co",
+    "Key Ingredient": "Papaya Extract",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "7.5"
+  },
+  {
+    "Product Name": "The Face Shop Rice Water Bright Cleansing Foam",
+    "Brand": "The Face Shop",
+    "Key Ingredient": "Rice Extract",
+    "Risk Score": "3",
+    "Effectiveness Score (Based on Key Ingredient)": "9.0"
+  }
+]
