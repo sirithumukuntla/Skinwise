@@ -5,7 +5,7 @@ import os
 from PIL import Image
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 from rapidfuzz import fuzz
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
@@ -21,9 +21,15 @@ CORS(app)
 UPLOAD_FOLDER = os.path.join(static_dir, "uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Load datasets
-json_path = os.path.join(base_dir, 'products.json')
-ingredient_path = os.path.join(base_dir, 'ingredientsList.json')
+# Lazy load datasets
+def load_products(json_path=os.path.join(base_dir, 'products.json')):
+    with open(json_path) as f:
+        raw_products = json.load(f)
+        return [normalize_product(p) for p in raw_products]
+
+def load_ingredients(ingredient_path=os.path.join(base_dir, 'ingredientsList.json')):
+    with open(ingredient_path) as f:
+        return json.load(f)
 
 def safe_int(value, default=0):
     try:
@@ -45,13 +51,6 @@ def normalize_product(p):
         "risk_score": safe_int(p.get("Risk Score", 0)),
         "effectiveness_score": safe_float(p.get("Effectiveness Score (Based on Key Ingredient)", 0))
     }
-
-with open(json_path) as f:
-    raw_products = json.load(f)
-    products = [normalize_product(p) for p in raw_products]
-
-with open(ingredient_path) as f:
-    ingredient_data = json.load(f)
 
 # NLP models
 nlp = pipeline("ner", model="dslim/bert-base-NER", grouped_entities=True)
@@ -102,7 +101,8 @@ def extract_entities(text):
 
     return normalized_entities
 
-def match_product(entities, products):
+def match_product(entities):
+    products = load_products()
     results = []
     all_text = correct_text(" ".join(entities)).lower()
 
@@ -118,11 +118,7 @@ def match_product(entities, products):
             brand_score = fuzz.partial_ratio(e, brand)
             ingredient_score = fuzz.token_set_ratio(e, ingredient)
 
-            total_score = (
-                0.5 * name_score +
-                0.3 * ingredient_score +
-                0.2 * brand_score
-            )
+            total_score = 0.5 * name_score + 0.3 * ingredient_score + 0.2 * brand_score
             best_score = max(best_score, total_score)
 
         boost = 0
@@ -165,22 +161,17 @@ def index():
         if image:
             image_path = os.path.join(UPLOAD_FOLDER, image.filename)
             image.save(image_path)
-
             text = extract_text_from_image(image_path)
             entities = extract_entities(text)
-            matched_product, match_score = match_product(entities, products)
+            matched_product, match_score = match_product(entities)
             if not matched_product:
                 message = "No product matched. Try uploading a clearer image or adjusting lighting."
 
-    return render_template(
-        "index.html",
-        product=matched_product,
-        score=match_score,
-        message=message
-    )
+    return render_template("index.html", product=matched_product, score=match_score, message=message)
 
 @app.route('/ingredient-info', methods=['POST'])
 def get_ingredient_info():
+    ingredient_data = load_ingredients()
     req_data = request.get_json()
     user_input = req_data.get('ingredient_name', '').strip().lower()
 
@@ -193,9 +184,9 @@ def get_ingredient_info():
 
     return jsonify({"error": "Ingredient not found"}), 404
 
-# 🔥 Dialogflow webhook route
 @app.route('/webhook', methods=['POST'])
 def webhook():
+    ingredient_data = load_ingredients()
     req = request.get_json()
     ingredient = req.get('queryResult', {}).get('parameters', {}).get('ingredient', '')
 
@@ -207,12 +198,7 @@ def webhook():
         avoid = ', '.join(eval(data.get("who_should_avoid", "[]")))
         url = data.get("url", "#")
 
-        return f"""🌿 *{name}*\n
-🧾 {desc}\n
-💡 *What it does:* {what_it_does}\n
-✅ *Good for:* {good_for or 'Not specified'}\n
-⚠️ *Avoid if:* {avoid or 'Not specified'}\n
-🔗 More info: {url}"""
+        return f"""\U0001F33F *{name}*\n\n\U0001F9FE {desc}\n\n\U0001F4A1 *What it does:* {what_it_does}\n\n✅ *Good for:* {good_for or 'Not specified'}\n\n⚠️ *Avoid if:* {avoid or 'Not specified'}\n\n🔗 More info: {url}"""
 
     if ingredient:
         for item in ingredient_data:
@@ -221,7 +207,9 @@ def webhook():
 
         return jsonify({"fulfillmentText": f"❌ Sorry, I couldn’t find details for *{ingredient}*."})
     else:
-        return jsonify({"fulfillmentText": "Please tell me which ingredient you'd like to know about 😊"})
+        return jsonify({"fulfillmentText": "Please tell me which ingredient you'd like to know about \U0001F60A"})
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
