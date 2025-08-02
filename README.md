@@ -1,15 +1,15 @@
-# Skincare OCR Analyzer
+# 🫧skin-Wise
 
-This is a web application that uses OCR (Optical Character Recognition) to extract ingredients from skincare product labels and analyze them for safety, effectiveness, and skin type compatibility.
+This is a web application that uses OCR (Optical Character Recognition) to extract ingredients from skincare product labels and analyze them for safety, effectiveness, and skin type compatibility and has a chatbot that helps user to more ingredient info.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 📸 Upload images of skincare product labels
 - 🤖 Automatic OCR and text cleaning
 - 🔍 Ingredient extraction using keyword and fuzzy matching
-- 🧪 Analysis using a dataset of 500 Indian skincare products
+- 🧪 Analysis using a dataset of 100 skincare products
 - 📊 Displays safety, effectiveness, skin type suitability, and more
 
 ---
@@ -20,7 +20,7 @@ This is a web application that uses OCR (Optical Character Recognition) to extra
 - **Frontend:** HTML, JavaScript
 - **OCR:** Tesseract via `pytesseract`
 - **Matching:** FuzzyWuzzy
-- **Data:** `products.json` (converted from CSV)
+- **Data:** `products.json`,`ingredientsList.json`(converted from CSV)
 
 ---
 
@@ -29,11 +29,13 @@ This is a web application that uses OCR (Optical Character Recognition) to extra
 skincare-ocr-analyzer/
 │
 ├── app.py # Main Flask backend
-├── products.json # Ingredient database
+├── products.json # products database
+├── ingredientsList.json # Ingredient database
 ├── requirements.txt # Python dependencies
 ├── templates/
 │ └── index.html # Frontend HTML
 ├── static/
 │ ├── uploads/ # Uploaded label images
-│ └── style.css # (Optional) Styling
+│ └── style.css # Styling
+
 └── README.md # You're here!
